@@ -32,7 +32,7 @@ const About = () => {
             data-aos-delay="200"
             dir={i18n.language === 'ar-EG' ? 'rtl' : 'ltr'}
             >
-            <p className="text-md text-muted-foreground">
+            <p className="text-md text-muted-foreground indent-8">
               {t("about.description1")}{" "}
             </p>
 

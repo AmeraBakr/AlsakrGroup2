@@ -246,6 +246,7 @@ const Contact = () => {
                               </p>
                               {info.link ? (
                                 <a
+                                dir='ltr'
                                   href={info.link}
                                   className="text-base text-foreground hover:text-primary hover:underline transition-all duration-200"
                                   target={
@@ -264,7 +265,7 @@ const Contact = () => {
                                   {info.value}
                                 </a>
                               ) : (
-                                <p className="text-base text-foreground">
+                                <p className="text-base text-foreground" dir='ltr'>
                                   {info.value}
                                 </p>
                               )}
@@ -277,20 +278,7 @@ const Contact = () => {
                 ))}
               </div>
 
-              <div className="mt-6">
-                <h3 className="text-lg font-semibold mb-2 text-primary dark:text-white">
-                  {t("contact.businessHours.title")}
-                </h3>
-                <p className="text-sm text-muted-foreground">
-                  {t("contact.businessHours.mondayFriday")}
-                </p>
-                <p className="text-sm text-muted-foreground">
-                  {t("contact.businessHours.saturday")}
-                </p>
-                <p className="text-sm text-muted-foreground">
-                  {t("contact.businessHours.sunday")}
-                </p>
-              </div>
+             
             </CardContent>
           </Card>
 

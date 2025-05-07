@@ -193,7 +193,7 @@ const Navbar = () => {
                     className={`${
                       activeSection === link.id
                         ? "text-red-600 font-medium"
-                        : "text-muted-foreground"
+                        : "text"
                     } py-2 text-lg hover:text-red-600 transition-colors`}
                     onClick={(e) => {
                       e.preventDefault();
