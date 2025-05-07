@@ -80,8 +80,8 @@ const GlobalReach = () => {
           ))}
         </div>
 
-        <div className="mt-16 text-center" data-aos="fade-up">
-          <div className="inline-block p-6 bg-muted rounded-xl">
+        <div className="mt-10 text-center" data-aos="fade-up">
+          <div className="inline-block p-4 bg-muted rounded-xl">
             <p className="text-lg">
               <span className="font-medium">{t("global.trusted")}</span>{" "}
               <span className="text-primary font-bold">

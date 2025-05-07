@@ -208,50 +208,51 @@ const Navbar = () => {
 
               {/* Mobile Socials */}
               <div className="mt-6 border-t pt-4">
-                <span className="block text-sm text-muted-foreground mb-2">
-                  📞 01040106194
-                </span>
-                <div className="flex gap-4 text-xl">
-                  <a
-                    href="https://facebook.com"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <FaFacebookF />
-                  </a>
-                  <a href="https://tiktok.com" target="_blank" rel="noreferrer">
-                    <FaTiktok />
-                  </a>
-                  <a
-                    href="https://instagram.com"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <FaInstagram />
-                  </a>
-                  <a
-                    href="https://youtube.com"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <FaYoutube />
-                  </a>
-                  <a
-                    href="https://twitter.com"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <FaTwitter />
-                  </a>
-                  <a
-                    href="https://linkedin.com"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <FaLinkedinIn />
-                  </a>
-                </div>
+           
+
+              <div className="flex  gap-2 text-white text-sm">
+              <div className="bg-[#25D366] rounded-full p-1 mb-4">
+                <FaWhatsapp size={24} color="white" />
               </div>
+              +201040106194
+            </div>
+            <div className="flex gap-2 text-md mb-2">
+              <a href="https://facebook.com" target="_blank" rel="noreferrer">
+                <div className="bg-[#1877F2] rounded-full p-2">
+                  <FaFacebookF color="white" />
+                </div>
+              </a>
+              <a href="https://tiktok.com" target="_blank" rel="noreferrer">
+                <div className="bg-black rounded-full p-2">
+                  <FaTiktok color="white" />
+                </div>
+              </a>
+              <a href="https://instagram.com" target="_blank" rel="noreferrer">
+                <div className="bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 rounded-full p-2">
+                  <FaInstagram color="white" />
+                </div>
+              </a>
+              <a href="https://youtube.com" target="_blank" rel="noreferrer">
+                <div className="bg-[#FF0000] rounded-full p-2">
+                  <FaYoutube color="white" />
+                </div>
+              </a>
+              <a href="https://twitter.com" target="_blank" rel="noreferrer">
+                <div className="bg-[#1DA1F2] rounded-full p-2">
+                  <FaTwitter color="white" />
+                </div>
+              </a>
+              <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+                <div className="bg-[#0077B5] rounded-full p-2">
+                  <FaLinkedinIn color="white" />
+                </div>
+              </a>
+            </div>
+
+           
+        
+              </div>
+
             </SheetContent>
           </Sheet>
         </div>
