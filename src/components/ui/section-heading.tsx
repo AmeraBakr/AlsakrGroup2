@@ -22,7 +22,7 @@ export function SectionHeading({
       <h2 className="text-xl font-bold tracking-tight md:text-3xl">{title}</h2>
       {subtitle && (
 
-        <p className="mt-4 max-w-2xl mx-auto text-[#c7ede7]" {subtitle}</p>
+        <p className="mt-4 max-w-2xl mx-auto text-[#c7ede7]"> {subtitle}</p>
 
       )}
     </div>

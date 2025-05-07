@@ -1,7 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Container } from "../ui/container";
 import { SectionHeading } from "../ui/section-heading";
-import { Award, Clock, Globe } from "lucide-react";
 import Certifications from "./Certifications";
 
 const About = () => {
