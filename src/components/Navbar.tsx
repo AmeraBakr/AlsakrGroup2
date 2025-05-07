@@ -48,7 +48,7 @@ const Navbar = () => {
     const element = document.getElementById(sectionId);
     if (element) {
       window.scrollTo({
-        top: element.offsetTop - 40,
+        top: element.offsetTop - 20,
         behavior: "smooth",
       });
     }
@@ -77,7 +77,7 @@ const Navbar = () => {
           : "bg-transparent"
       }`}
     >
-      <div className="container px-0  md:px-[110px] py-4 mx-auto mt-2">
+      <div className="container px-0  md:px-[110px] pt-4 mx-auto">
         <div className="flex items-start justify-between">
           {/* Logo and Socials */}
           <div className="flex items-center gap-7">
@@ -100,9 +100,11 @@ const Navbar = () => {
                   </span>
                 </span>
 
+
                 <p className="text-[8px] md:text-xs">
                   Sorting, Packing and Colling Import & Export
                 </p>
+
               </div>
             </a>
           </div>
