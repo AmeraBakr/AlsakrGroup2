@@ -29,9 +29,8 @@ const Navbar = () => {
     const sections = [
       "home",
       "about",
-      "services",
-      "products",
-      "certifications",
+      "our services",
+      "our products",
       "global",
       "contact",
     ];
@@ -63,9 +62,8 @@ const Navbar = () => {
   const navLinks = [
     { id: "home", label: t("nav.home") },
     { id: "about", label: t("nav.about") },
-    { id: "services", label: t("nav.services") },
-    { id: "products", label: t("nav.products") },
-    { id: "certifications", label: t("nav.certifications") },
+    { id: "our services", label: t("nav.our services") },
+    { id: "our products", label: t("nav.our products") },
     { id: "global", label: t("nav.globalReach") },
     { id: "contact", label: t("nav.contact") },
   ];
@@ -91,31 +89,25 @@ const Navbar = () => {
               }}
               className="flex items-center gap-2 text-md flex-col justify-center"
             >
-              <img src={LOGO} alt="Logo" className="max-w-[70px] " />
+              <img src={LOGO} alt="Logo" className="max-w-[50px] " />
               <div className=" flex flex-col items-center">
                 <span className="font-bold text-xs md:text-md">
-                  Al Sakr Group
+                  <span className="text-orange-500">Al Sakr</span>{" "}
+                  <span className="text-green-500">
+                    Gr
+                    <span className="text-orange-500">o</span>
+                    up
+                  </span>
                 </span>
-                <span className="text-[8px] md:text-xs">
-                  Sorting, Packing and Colling
-                </span>
-                <span className="text-[8px] md:text-xs">Import & Export</span>
+
+                <p className="text-[8px] md:text-xs">
+                  Sorting, Packing and Colling Import & Export
+                </p>
               </div>
             </a>
           </div>
-
           <div className="hidden md:flex flex-col items-center">
-            <span
-              dir="ltr"
-              className="flex text-lg font-semibold text-white mb-2 gap-2 items-center"
-            >
-              <div className="bg-[#25D366] rounded-full p-1">
-                <FaWhatsapp size={20} color="white" />
-              </div>
-              +201040106194
-            </span>
-
-            <div className="flex gap-2 text-md">
+            <div className="flex gap-2 text-md mb-2">
               <a href="https://facebook.com" target="_blank" rel="noreferrer">
                 <div className="bg-[#1877F2] rounded-full p-2">
                   <FaFacebookF color="white" />
@@ -147,7 +139,15 @@ const Navbar = () => {
                 </div>
               </a>
             </div>
+
+            <div className="flex items-center gap-2 text-white text-sm">
+              <div className="bg-[#25D366] rounded-full p-1">
+                <FaWhatsapp size={20} color="white" />
+              </div>
+              +201040106194
+            </div>
           </div>
+
           <div className="hidden md:flex flex-col gap-2 items-center justify-center">
             <div
               className="flex flex-wrap gap-2 "

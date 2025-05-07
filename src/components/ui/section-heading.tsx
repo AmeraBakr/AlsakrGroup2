@@ -21,7 +21,7 @@ export function SectionHeading({
     )}>
       <h2 className="text-xl font-bold tracking-tight sm:text-3xl md:text-4xl">{title}</h2>
       {subtitle && (
-        <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">{subtitle}</p>
+        <p className="mt-4 max-w-2xl mx-auto" style={{ color: "#c7ede7" }}>{subtitle}</p>
       )}
     </div>
   );

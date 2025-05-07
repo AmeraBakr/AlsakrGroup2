@@ -61,7 +61,7 @@ const GlobalReach = () => {
   ];
 
   return (
-    <section id="global" className="py-20 md:py-32 bg-background">
+    <section id="global" className="py-20 md:py-32 bg-background px-4 md:px-10 lg:px-16">
       <Container>
         <SectionHeading
           title={t("global.title")}

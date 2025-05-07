@@ -945,7 +945,7 @@ const Products = () => {
     : products[activeTab].slice(0, 8);
 
   return (
-    <section id="products" className="py-20 md:py-32 bg-background">
+    <section id="our products" className="py-20 md:py-32 bg-background px-4 md:px-10 lg:px-16">
       <Container>
         <SectionHeading
           title={t("products.title")}
@@ -953,7 +953,7 @@ const Products = () => {
         />
 
         {/* Tabs */}
-        <div className="flex justify-center gap-4 mb-10 relative">
+        <div className="flex justify-center gap-4 mb-5 relative">
           {tabs.map((tab) => (
             <button
               key={tab.id}

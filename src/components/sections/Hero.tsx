@@ -23,7 +23,7 @@ const Hero = () => {
         <video
           autoPlay
           loop
-          muted
+          
           playsInline
           className="w-full h-full object-cover md:object-contain"
           style={{ minHeight: "100vh" }}
